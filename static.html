@@ -3,6 +3,10 @@
 <head>
        <title>static</title>
       <style>
+        body
+        {
+          background-color: rgb(243, 153, 225);
+        }
         h1{
             text-align: center;
         }
@@ -19,7 +23,7 @@
     <h1>STATIC</h1>
     <hr>
     <hr>
-    <table class="table">
+    <table class="table" border="3" align="center">
         <tr>
             <th>information</th>
             <th>fil the information</th>
@@ -30,16 +34,16 @@
             </tr>
             <tr>
             <th>GENDER</th>
-            <th><input type="radio" name="female">female<br>
-                <input type="radio" name="male">male</th>
+            <th>Female<input type="radio" value="GENDER" name="female"><br>
+              Male<input type="radio" value="GENDER" name="male"></th>
                 </tr>
                 <tr>
             <th>EMAIL</th>
-            <th><input type="email" name="email"></th>
+            <th><input type="email" name="email" placeholder="email"></th>
             </tr>
             <tr>
             <th>MOBLIE NUMBER</th>
-           <th> <input type="number"></th>
+           <th> <input type="number" placeholder="number"></th>
            </tr>
            <tr>
             <th>COLLEGE NAME</th>
@@ -47,14 +51,16 @@
             </tr>
             <tr>
             <th> SELECT SUBJECT</th>
-            <th><input type="checkbox" name="subject">java<br>
-                <input type="checkbox" name="subject">python<br>
-                <input type="checkbox" name="subject">c++<br>
-                <input type="checkbox" name="subject">DBMS<br>
-                <input type="checkbox" name="subject">c lunguage</th>
+              <th>java<input type="checkbox" name="subject"><br>
+                python<input type="checkbox" name="subject"><br>
+                c++ <input type="checkbox" name="subject"><br>
+                DBMS<input type="checkbox" name="subject"><br>
+                c lunguage<input type="checkbox" name="subject"></th>
             
             </tr>
-            </tr> 
+            <tr>
+              <th colspan="2"><button class="btn" value="static">Login</button></th>
+</tr>
 
 
 </table>
